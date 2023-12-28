@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>MY EDUCATIONAL BACKGROUND</h1>
+  <h4> Quotes</h4>
+  <p> My life motto is : <q>Never give up</q></p>
+</div>
+
+<h2 style="text-align:center">MY JOURNEY </h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/sawah_ring.jpeg" alt="" style="width:50%">
+      <div class="container">
+        <h2>SEKOLAH KEBANGSAAN SAWAH RING </h2>
+        <p class="title">PRIMARY SCHOOL</p>
+        <p>When I was 7 years old to 12 years old,I studied here.I still remember how I scared go to school and buy the food in canteen.</p>
+        
+        <p><button><a href="https://ms.wikipedia.org/wiki/Sekolah_Kebangsaan_Sawah_Ring">SKSR<a/button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/bukit_gambir.jpeg" alt=" " style="width:50%">
+      <div class="container">
+        <h2>SEKOLAH MENENGAH KEBANGSAAN BUKIT GAMBIR </h2>
+        <p class="title">SECONDARY SCHOOL</p>
+        <p>I can tell that my secondary school, is my hardest good bye. I made so many memories and friends there for 5 years.</p>
+        
+        <p><button><a href="https://ms.wikipedia.org/wiki/Sekolah_Menengah_Kebangsaan_Bukit_Gambir,_Johor">SMKBG<a/button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/kmj.jpeg" alt="" style="width:50%">
+      <div class="container">
+        <h2>KOLEJ MATRIKULASI JOHOR</h2>
+        <p class="title">MATRIC</p>
+        <p>I am accounting student and I studied here almost 1 years and I got 3.75 for my CGPA.</p>
+        
+        <p><button><a href="https://en.wikipedia.org/wiki/Johor_Matriculation_College"> Kolej Matrikulasi Johor<a/button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="images/uitm_kelantan.jpeg" alt="" style="width:50%">
+      <div class="container">
+        <h2>UNIVERSITI TEKNOLOGI MARA </h2>
+        <p class="title">UNIVERSITY</p>
+        <p>After matric, I further my study at Universiti Teknologi Mara (UiTM) Kelantan, Machang branch in BUSINESS AND ECONOMIC for six semester. This year will be my third semester as an economic student.</p>
+        
+        <p><button><a href="https://kelantan.uitm.edu.my/index.php/en/"> UITMCK<a/button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
